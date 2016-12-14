@@ -1,0 +1,169 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Microservices deployment stage",
+    "description": "Feb Demo Microservices GitHub Schema",
+    "longDescription": "With GitHub, you can store your source code in a new or an existing GitHub repository.",
+    "type": "object",
+    "properties": {
+        "git-bluecompute-web-repo_name": {
+            "type": "string"
+        },
+        "git-bluecompute-web-repo_url": {
+            "type": "string"
+        },
+        "git-api-repo_name": {
+            "type": "string"
+        },
+        "git-api-repo_url": {
+            "type": "string"
+        },
+        "git-bff-socialreview-repo_name": {
+            "type": "string"
+        },
+        "git-bff-socialreview-repo_url": {
+            "type": "string"
+        },
+        "git-bff-inventory-repo_name": {
+            "type": "string"
+        },
+        "git-bff-inventory-repo_url": {
+            "type": "string"
+        },
+        "git-micro-socialreview-repo_name": {
+            "type": "string"
+        },
+        "git-micro-socialreview-repo_url": {
+            "type": "string"
+        },
+        "git-micro-inventory-repo_name": {
+            "type": "string"
+        },
+        "git-micro-inventory-repo_url": {
+            "type": "string"
+        },
+        "git-netflix-eureka-repo_name": {
+            "type": "string"
+        },
+        "git-netflix-eureka-repo_url": {
+            "type": "string"
+        },
+        "git-netflix-zuul-repo_name": {
+            "type": "string"
+        },
+        "git-netflix-zuul-repo_url": {
+            "type": "string"
+        }
+    },
+    "required": ["git-bluecompute-web-repo_name”, "git-bluecompute-web-repo_url”, "git-api-repo_name”, "git-api-repo_url”, "git-bff-socialreview-repo_name”, "git-bff-socialreview-repo_url”, "git-bff-inventory-repo_name, "git-bff-inventory-repo_url”, "git-micro-socialreview-repo_name”,  "git-micro-socialreview-repo_url”, "git-micro-inventory-repo_name”, "git-micro-inventory-repo_url”, "git-netflix-eureka-repo_name”,"git-netflix-eureka-repo_url”,"git-netflix-zuul-repo_name”, "git-netflix-zuul-repo_url"],
+    "form": [
+      {
+        "type": "table",
+        "columnCount": 3,
+        "widths": ["47%", "6%", "47%"],
+        "items": [
+            {
+              "type": "label",
+              "title": "Source Repository"
+            },
+            {
+              "type": "label",
+              "title": ""
+            },
+            {
+              "type": "label",
+              "title": "Target Repository"
+            },
+            {
+              "type": "text",
+              "key": "git-netflix-eureka-repo_url"
+            },
+            {
+              "type": "icon",
+              "iconType": "right_arrow"
+            },
+            {
+              "type": "text",
+              "key": "git-netflix-eureka-repo_name"
+            },
+            {
+              "type": "text",
+              "key": "git-netflix-zuul-repo_url"
+            },
+            {
+              "type": "icon",
+              "iconType": "right_arrow"
+            },
+            {
+              "type": "text",
+              "key": "git-netflix-zuul-repo_name"
+            },  {
+              "type": "text",
+              "key": "git-micro-inventory-repo_url"
+            },
+            {
+              "type": "icon",
+              "iconType": "right_arrow"
+            },
+            {
+              "type": "text",
+              "key": "git-micro-inventory-repo_name"
+            },  {
+              "type": "text",
+              "key": "git-micro-socialreview-repo_url"
+            },
+            {
+              "type": "icon",
+              "iconType": "right_arrow"
+            },
+            {
+              "type": "text",
+              "key": "git-micro-socialreview-repo_name"
+            }, {
+              "type": "text",
+              "key": "git-bff-inventory-repo_url"
+            },
+            {
+              "type": "icon",
+              "iconType": "right_arrow"
+            },
+            {
+              "type": "text",
+              "key": "git-bff-inventory-repo_name"
+            }, {
+              "type": "text",
+              "key": "git-bff-socialreview-repo_url"
+            },
+            {
+              "type": "icon",
+              "iconType": "right_arrow"
+            },
+            {
+              "type": "text",
+              "key": "git-bff-socialreview-repo_name"
+            }, {
+              "type": "text",
+              "key": "git-api-repo_url"
+            },
+            {
+              "type": "icon",
+              "iconType": "right_arrow"
+            },
+            {
+              "type": "text",
+              "key": "git-api-repo_name"
+            }, {
+              "type": "text",
+              "key": "git-bluecompute-web-repo_url"
+            },
+            {
+              "type": "icon",
+              "iconType": "right_arrow"
+            },
+            {
+              "type": "text",
+              "key": "git-bluecompute-web-repo_name"
+            }
+        ]
+      }
+    ] 
+}

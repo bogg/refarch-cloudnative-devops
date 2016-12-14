@@ -54,7 +54,7 @@
             "type": "string"
         }
     },
-    "required": ["git-bluecompute-web-repo_name”, "git-bluecompute-web-repo_url”, "git-api-repo_name”, "git-api-repo_url”, "git-bff-socialreview-repo_name”, "git-bff-socialreview-repo_url”, "git-bff-inventory-repo_name, "git-bff-inventory-repo_url”, "git-micro-socialreview-repo_name”,  "git-micro-socialreview-repo_url”, "git-micro-inventory-repo_name”, "git-micro-inventory-repo_url”, "git-netflix-eureka-repo_name”,"git-netflix-eureka-repo_url”,"git-netflix-zuul-repo_name”, "git-netflix-zuul-repo_url"],
+    "required": ["git-bluecompute-web-repo_name", "git-bluecompute-web-repo_url", "git-api-repo_name", "git-api-repo_url", "git-bff-socialreview-repo_name", "git-bff-socialreview-repo_url", "git-bff-inventory-repo_name", "git-bff-inventory-repo_url", "git-micro-socialreview-repo_name",  "git-micro-socialreview-repo_url", "git-micro-inventory-repo_name", "git-micro-inventory-repo_url", "git-netflix-eureka-repo_name","git-netflix-eureka-repo_url","git-netflix-zuul-repo_name", "git-netflix-zuul-repo_url"],
     "form": [
       {
         "type": "table",
